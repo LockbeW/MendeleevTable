@@ -17,13 +17,14 @@ class Ui_MainWindow(object):
         self.picture = QtWidgets.QLabel(parent=self.centralwidget)
         self.picture.setGeometry(QtCore.QRect(0, 0, 921, 671))
         self.picture.setText("")
-        self.picture.setPixmap(QtGui.QPixmap("mendt.png"))
+        self.picture.setPixmap(QtGui.QPixmap("periodic.png"))
         self.picture.setScaledContents(True)
         self.picture.setObjectName("picture")
         
 
         self.inputLine = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.inputLine.setGeometry(QtCore.QRect(1030, 50, 113, 41))
+        self.inputLine.setGeometry(QtCore.QRect(1050, 50, 75, 40))
+        self.inputLine.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.inputLine.setObjectName("inputLine")
         
         self.inputLine.setMaxLength(3)

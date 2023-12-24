@@ -29,7 +29,6 @@ class CSVManager:
                 'Specific_heat_capacity': row[10],
                 'Electronegativity': row[11],
                 'Abundance_in_earth\'s_crust': row[12],
-                'Origin_of_name': row[3]
             }
 
             str_data = ''
